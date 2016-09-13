@@ -29,17 +29,18 @@
     <div class="container">
       <section id="main_content">
         <h1>
-<a id="mac-and-hostname-random-changer-hide-me" class="anchor" href="#mac-and-hostname-random-changer-hide-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>mac and hostname random changer (hide-me)</h1>
+<a id="mac-and-hostname-random-changer-hide-me" class="anchor" href="#mac-and-hostname-random-changer-hide-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac and hostname random changer <a href="https://md3xter.github.io/hide-me/">(hide-me)</a>
+</h1>
 
 <p>Every time I was trying to do an Network Penetration Testing, I needed to do some steps to make sure I was hidden, put my interface down, change my mac address, change my hostname, putting interface back up, and restarting network-manager service, and when done, changing my mac address and hostname to original one. This took me a while and sometimes I even forgot to do something from those steps. Then I came to an idea to make a script that does all that for me. Basicly this script will change the mac address to a random one and will pick a random hostname from specified file.</p>
 
-<p>Written by: Andrei Zgirvaci</p>
+<p>WRITTEN BY: Andrei Zgirvaci</p>
 
 <p>DISCLAIMER: This is only for testing purposes and can only be used where strict consent has been given. Do not use this for illegal purposes, period.</p>
 
 <p>CONTRIBUTE: Contributions are always welcome!</p>
 
-<p><em>If you can, please take a minute to star this repo and follow me, I will be much appreciated!!!</em></p>
+<p><em>If you can, please take a minute to star this repo and follow me, It will be much appreciated!!!</em></p>
 
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
@@ -49,17 +50,23 @@
 <pre><code>  git clone https://github.com/MD3XTER/hide-me
 </code></pre>
 
-<p>To execute script from anywhere, type this:</p>
+<p>To execute script from anywhere, add this to ~/.bashrc:</p>
 
 <pre><code>  PATH=/path/to/hide-me:"$PATH"
 </code></pre>
 
-<p><em>Now you can type 'hide-me' from anywhere and it will execute!</em></p>
+<p><em>Restart terminal and now you can type 'hide-me' from anywhere and it will execute!</em></p>
 
 <h2>
 <a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
 
-<p><strong><em>'macchanger' needs to be installed and command: 'hostname' should be available!!!</em></strong></p>
+<ol>
+<li>
+<strong><em>python</em></strong> version &gt; <strong><em>3.5</em></strong> installed</li>
+<li>Command <strong><em>hostname</em></strong> should be available</li>
+<li>
+<strong><em>macchanger</em></strong> installed</li>
+</ol>
 
 <p>You can install macchanger by typing next line:</p>
 
@@ -79,11 +86,10 @@
 <p><em>A default .txt file with random hostnames is located in 'dict' folder</em></p>
 
 <h2>
-<a id="supported-platforms" class="anchor" href="#supported-platforms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supported platforms</h2>
+<a id="tested-platforms" class="anchor" href="#tested-platforms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tested platforms</h2>
 
 <ul>
 <li>Linux</li>
-<li>Ubuntu</li>
 </ul>
 
 <h2>
